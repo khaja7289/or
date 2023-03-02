@@ -10,7 +10,7 @@ or_gate or_gate(
 );
 
 initial begin
-	$dumpfile("or.vcd");
+	$dumpfile("or_gate.vcd");
 	$dumpvars;
 end
 endmodule
