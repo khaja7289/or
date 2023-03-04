@@ -3,7 +3,7 @@ module or_test(
 	input wire b,
 	output wire y
 );
-or_gate uut(
+or_gate or_gate(
 	.a(a),
 	.b(b),
 	.y(y)
